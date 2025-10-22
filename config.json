@@ -1,6 +1,6 @@
 {
   "$schema": "./source/schema.json",
-  "family_name": "Maple Mono",
+  "family_name": "Maple Mono TC",
   "use_hinted": true,
   "pool_size": 4,
   "enable_ligature": true,
@@ -49,9 +49,9 @@
     "cv65": "ignore",
     "cv66": "ignore",
     "cv96": "ignore",
-    "cv97": "ignore",
-    "cv98": "ignore",
-    "cv99": "ignore",
+    "cv97": "enable",
+    "cv98": "enable",
+    "cv99": "enable",
     "ss01": "ignore",
     "ss02": "ignore",
     "ss03": "ignore",
@@ -68,7 +68,7 @@
   "nerd_font": {
     "enable": true,
     "version": "3.4.0",
-    "mono": false,
+    "mono": true,
     "propo": false,
     "use_font_patcher": false,
     "glyphs": [
@@ -77,7 +77,7 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
